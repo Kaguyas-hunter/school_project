@@ -1,0 +1,23 @@
+/*-----------------------------------*/
+h1 {
+  font-style: italic;
+  color: #FF4500
+}
+h2 {
+  font-style: oblique;
+  color: #FF6347
+}
+/*-----------------------------------*/
+.btn {
+  display: inline-block; /* Строчно-блочный элемент */
+  background: #A9A9A9; /* Серый цвет фона */
+  color: #fff; /* Белый цвет текста */
+  padding: 1rem 1.5rem; /* Поля вокруг текста */
+  text-decoration: none; /* Убираем подчёркивание */
+  border-radius: 3px; /* Скругляем уголки */
+}
+.btn:hover {
+  background: #696969;
+  color: #DCDCDC;
+}
+/*-----------------------------------*/

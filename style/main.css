@@ -1,0 +1,41 @@
+h1 {
+  font-style: italic;
+  color: #FF4500
+}
+h2 {
+  font-style: oblique;
+  color: #FF6347
+}
+/*-----------------------------------*/
+.mid {
+  position: relative; /*Позиция от носительно элементов*/
+  text-align: center; /*Выравнивание*/
+  margin: auto;  /*Выравнивание*/
+  font-family: Verdana; /*Шрифт*/
+  color: #FF8C00; /*Цвет*/
+  font-weight: bold; /*Тип текста*/
+  font-style: italic; /*Стиль текста*/
+}
+/*-----------------------------------*/
+.btn {
+  display: inline-block; /* Строчно-блочный элемент */
+  background: #A9A9A9; /* Серый цвет фона */
+  color: #fff; /* Белый цвет текста */
+  padding: 1rem 1.5rem; /* Поля вокруг текста */
+  text-decoration: none; /* Убираем подчёркивание */
+  border-radius: 3px; /* Скругляем уголки */
+}
+.btn:hover {
+  background: #696969;
+  color: #DCDCDC;
+}
+/*---------------------*/
+.btns {
+  height: 30px auto;
+  width: 100%;
+  max-width: 1850px;
+  position: absolute;
+  top: 150px;
+  left: 15px;
+  text-align:center;
+}
