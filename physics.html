@@ -11,15 +11,30 @@
       background-position: center center; /*Позиция фона*/
       background-attachment: fixed; /*Положение*/
       height: 50%; /*Размещение фона*/
+      text-align: center;
     }
-    .box {
-      color: #FF4500;
-      width: 100% ;
+    .box { /*Класс*/
+      position:absolute;
+      color: #FF4500; /*Цвет*/
+      width: auto; /*Ширина*/
+      margin: 2.5%;
       background: url(img/bkg-1.png); /*Фон*/
       border: 6px solid #131313; /*Толщина,тип и цвет обводки*/
       border-radius: 25px; /*Радиус скругления*/
-      position: relative;
-      text-align: center;
+      position: relative;/*Позиция*/
+      text-align: center;/*Размещение текста и блоков*/
+    }
+    .formula {
+      border: 4px solid #004953;
+      border-radius: 15px;
+      border-width: 3px;
+      border-color: #004953;
+      border-style: solid;
+      background: rgb(0%, 22%, 25%, 0.68);
+      width: auto; /* Ширина */
+      margin: 20px 20px 0; /* Отступы */
+      text-align: center; /* Выравнивание по центру */
+      float: left; /* Выравнивание по левому краю */
     }
     </style>
   </head>
@@ -28,6 +43,36 @@
       <h1>Физика</h1>
       <a href="index.html" class="btn">Обратно</a>
       <p>Физика Kichkaz</p>
+      <div class="formula" >
+        <p> Масса: m=pv </p>
+      </div>
+      <div class="formula" >
+        <p>Сила тяжести: F=mg</p>
+      </div>
+      <div class="formula" >
+        <p>Потенциальная энергия: E=mgh</p>
+      </div>
+      <div class="formula" >
+        <p>Мощность: N=A/t</p>
+      </div>
+      <div class="formula" >
+        <p>Работа тока: A=IUt</p>
+      </div>
+      <div class="formula" >
+        <p>Теплота парообразования: Q=Lm</p>
+      </div>
+      <div class="formula" >
+        <p>Мощность тока: P=UI</p>
+      </div>
+      <div class="formula" >
+        <p>Импульс: p=mu</p>
+      </div>
+      <div class="formula" >
+        <p> Масса: m=pv </p>
+      </div>
+      <div class="formula" >
+        <p> Масса: m=pv </p>
+      </div>
     </div>
   </body>
 </html>

@@ -11,25 +11,53 @@
       background-position: center center; /*Позиция фона*/
       background-attachment: fixed; /*Положение*/
       height: 50%; /*Размещение фона*/
+      text-align: center;
     }
     .box { /*Класс*/
+      position:absolute;
       color: #FF4500; /*Цвет*/
-      width: 100% ; /*Ширина*/
+      width: auto; /*Ширина*/
+      margin: 2.5%;
       background: url(img/bkg-1.png); /*Фон*/
       border: 6px solid #131313; /*Толщина,тип и цвет обводки*/
       border-radius: 25px; /*Радиус скругления*/
       position: relative;/*Позиция*/
       text-align: center;/*Размещение текста и блоков*/
     }
+    .formula {
+      border: 4px solid #004953;
+      border-radius: 15px;
+      border-width: 3px;
+      border-color: #004953;
+      border-style: solid;
+      background: rgb(0%, 22%, 25%, 0.68);
+      width: auto; /* Ширина */
+      margin: 20px 20px 0; /* Отступы */
+      text-align: center; /* Выравнивание по центру */
+      float: left; /* Выравнивание по левому краю */
+    }
     </style>
   </head>
   <body>
     <div class="box"><!--Блок с классом "box"-->
-      <h1>Химия</h1><!--Загаловок-->
+      <h1>Алгебра</h1><!--Загаловок-->
       <a href="index.html" class="btn">Обратно</a> <!--Кнопка. Пересылает на главную страницу. -->
       <p>Химия Kichkaz</p><!--Отладка-->
-    </div>
-    <div class="">
+      <div class="formula" >
+        <p>Плотность: p=m/v</p>
+      </div>
+      <div class="formula" >
+        <p>Количество вещества: n=m/M</p>
+      </div>
+      <div class="formula" >
+        <p>Масса вещества: m=m*n</p>
+      </div>
+      <div class="formula" >
+        <p>Молярная масса: M=m/n</p>
+      </div>
+      <div class="formula" >
+        <p>Массовая доля: w=m(вещества)/m(раствора)*100%</p>
+      </div>
     </div>
   </body>
 </html>

@@ -11,15 +11,30 @@
       background-position: center center; /*Позиция фона*/
       background-attachment: fixed; /*Положение*/
       height: 50%; /*Размещение фона*/
+      text-align: center;
     }
-    .box {
-      color: #FF4500;
-      width: 100% ;
+    .box { /*Класс*/
+      position:absolute;
+      color: #FF4500; /*Цвет*/
+      width: auto; /*Ширина*/
+      margin: 2.5%;
       background: url(img/bkg-1.png); /*Фон*/
       border: 6px solid #131313; /*Толщина,тип и цвет обводки*/
       border-radius: 25px; /*Радиус скругления*/
-      position: relative;
-      text-align: center;
+      position: relative;/*Позиция*/
+      text-align: center;/*Размещение текста и блоков*/
+    }
+    .formula {
+      border: 4px solid #004953;
+      border-radius: 15px;
+      border-width: 3px;
+      border-color: #004953;
+      border-style: solid;
+      background: rgb(0%, 22%, 25%, 0.68);
+      width: auto; /* Ширина */
+      margin: 20px 20px 0; /* Отступы */
+      text-align: center; /* Выравнивание по центру */
+      float: left; /* Выравнивание по левому краю */
     }
     </style>
   </head>
@@ -28,6 +43,30 @@
       <h1>Геометрия</h1>
       <a href="index.html" class="btn">Обратно</a>
       <p>Геометрия Kichkaz</p>
+      <div class="formula" >
+        <p>Формула Герона: S^2 = p(p-a)(p-b)(p-c)(p-d), где p = (a+b+c+d)/2</p>
+      </div>
+      <div class="formula" >
+        <p>Площадь треуглоника через высоту: S=1/2ah</p>
+      </div>
+      <div class="formula" >
+        <p>Теорема Пифагора:c2=a2+b2</p>
+      </div>
+      <div class="formula" >
+        <p>Площадь трапеции: S=1/2h(a+b)</p>
+      </div>
+      <div class="formula" >
+        <p>Площадь прямоугольника: S=ab</p>
+      </div>
+      <div class="formula" >
+        <p>Теорема синусов: a/sin a=b/sin b=c/sin c</p>
+      </div>
+      <div class="formula" >
+        <p>Площадь круга: S=πR²</p>
+      </div>
+      <div class="formula" >
+        <p>Площадь сектора круга: S=1/2pr</p>
+      </div>
     </div>
   </body>
 </html>
